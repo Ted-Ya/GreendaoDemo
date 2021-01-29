@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/username_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/user_name_1"
+        android:maxLength="32"
+        android:inputType="textNoSuggestions"
+        />
+
+    <EditText
+        android:id="@+id/inputItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="write item in here"
+        android:maxLines="2" />
+    <EditText android:id="@+id/inputPrice"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="write price in here"/>
+
+    <Button
+        android:id="@+id/insertData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Add data" />
+
+
+    <Button
+        android:id="@+id/queryData"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Query data"/>
+</LinearLayout>
